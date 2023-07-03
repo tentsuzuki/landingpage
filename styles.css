@@ -57,7 +57,7 @@ header {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 15px;
     gap: 15px;
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 .top-text-container {
@@ -69,12 +69,14 @@ header {
     font-weight: bold;
     color: #fff;
     text-shadow: 0 0 10px #ff0000;
+    text-align: center;
 }
 
 .paragraph-text {
     font-size: 16px;
     color: #fff;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .top-image {
@@ -92,6 +94,7 @@ header {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    justify-content: center;
 }
 
 .button:hover {
@@ -99,7 +102,7 @@ header {
 }
 
 .middle-flex-container {
-    margin-top: 1em;
+    margin-top: 15em;
     padding-top: 1em;
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -142,46 +145,48 @@ header {
     color: #fff;
 }
 
-bottom {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .bottom-flex-container {
-    width: 80%;
-}
-
-.bottom-flex-container p {
-    padding: 0 2em;
+    margin-top: 15em;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.bottom-flex-container .quote-text {
-    padding-top: 2em;
-    font: normal 400 1em/1.5em 'Montserrat', sans-serif;
+.quote-text {
+    padding: 2em;
+    font: normal 400 2em/2.5em 'Comic Sans MS', sans-serif;
     letter-spacing: 0.04em;
 }
 
-.bottom-flex-container .quoter {
-    padding-bottom: 1em;
-    font: normal 700 1.5em/1.5em 'Montserrat', sans-serif;
+.quoter {
+    padding: 1em;
+    font: normal 700 3em/1.5em 'Comic Sans MS', sans-serif;
     letter-spacing: 0.07em;
     text-align: right;
 }
 
-.bottom-flex-container .quoter:before {
-    content: " - ";
+.contact-container {
+    display: flex;
+    background-color: black;
+    margin: 5em 15em 5em 15em;
 }
 
-.bottom-flex-container:after {
-    content: "◤";
-    font-size: 2em;
-    color: #fff;
-    margin: 0 0 0 75%;
+.contact-text, .contact-subtext {
+    color: white;
+    padding: 5px 5px 5px 15px;
+    flex-grow: 2;
+}
+
+.contact-subtext {
+    font-size: 12px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15em;
 }
 
 .footer {
@@ -193,4 +198,5 @@ bottom {
 
 .footer-text {
     color: #fff;
+    text-align: center;
 }
