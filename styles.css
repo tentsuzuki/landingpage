@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url(images/bg_static.jpg);
     background-attachment: fixed;
 }
@@ -71,7 +71,7 @@ header {
     font-weight: bold;
     color: white;
     text-shadow: 0 0 10px red;
-    text-align: center;
+    text-align: left;
     padding-bottom: 15px;
 }
 
@@ -79,7 +79,7 @@ header {
     font-size: 16px;
     color: white;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .top-image {
@@ -98,7 +98,6 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 0 auto;
-    font-family: 'Comic Sans MS', sans-serif;
 }
 
 .button:hover {
@@ -108,9 +107,8 @@ header {
 }
 
 .middle-flex-container {
-    padding: 10em 0 10em 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 10em;
+    padding: 10em;
+    background-color: black;
 }
 
 .middle-title-text {
@@ -157,7 +155,7 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    border-radius: 1em;    
+    border-radius: 1em;
 }
 
 .quote-text {
@@ -195,7 +193,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15em;
 }
 
 .footer {
