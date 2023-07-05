@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comic Sans MS', sans-serif;
     background-image: url(images/bg_static.jpg);
     background-attachment: fixed;
 }
@@ -17,7 +17,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
     padding: 1em;
 }
 
@@ -34,6 +33,7 @@ header {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    margin-left: 15px;
 }
 
 .links {
@@ -69,14 +69,15 @@ header {
 .top-title-text {
     font-size: 24px;
     font-weight: bold;
-    color: #fff;
-    text-shadow: 0 0 10px #ff0000;
+    color: white;
+    text-shadow: 0 0 10px red;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .paragraph-text {
     font-size: 16px;
-    color: #fff;
+    color: white;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -91,28 +92,33 @@ header {
 .button {
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: red;
+    color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 0 auto;
+    font-family: 'Comic Sans MS', sans-serif;
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .middle-flex-container {
     padding: 10em 0 10em 0;
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 10em;
 }
 
 .middle-title-text {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    color: #fff;
-    text-shadow: 0 0 10px #ff0000;
+    color: white;
+    text-shadow: 0 0 10px red;
     margin-bottom: 1em;
 }
 
@@ -142,7 +148,7 @@ header {
     width: 100%;
     margin-top: 5px;
     text-align: center;
-    color: #fff;
+    color: white;
 }
 
 .bottom-flex-container {
@@ -200,6 +206,6 @@ header {
 }
 
 .footer-text {
-    color: #fff;
+    color: white;
     text-align: center;
 }
