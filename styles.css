@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(images/bg_static.jpg);
@@ -11,10 +16,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    padding: 15px;
-    margin: 0;
+    padding: 1em;
 }
 
 .logo {
@@ -30,7 +34,6 @@ header {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    margin-left: 15px;
 }
 
 .links {
@@ -51,13 +54,12 @@ header {
     text-shadow: 0 0 10px #ff0000;
 }
 
-/* Top Section Styles */
 .top-flex-container {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    gap: 15px;
-    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7.5em;
+    margin: 15em;
+    border-radius: 1em;
 }
 
 .top-text-container {
@@ -94,7 +96,6 @@ header {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    justify-content: center;
 }
 
 .button:hover {
@@ -102,9 +103,8 @@ header {
 }
 
 .middle-flex-container {
-    margin-top: 15em;
-    padding-top: 1em;
-    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10em 0 10em 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .middle-title-text {
@@ -146,11 +146,12 @@ header {
 }
 
 .bottom-flex-container {
-    margin-top: 15em;
-    background-color: rgba(0, 0, 0, 0.2);
+    margin: 15em 10em 15em 10em;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     flex-direction: column;
+    border-radius: 1em;    
 }
 
 .quote-text {
@@ -169,7 +170,9 @@ header {
 .contact-container {
     display: flex;
     background-color: black;
-    margin: 5em 15em 5em 15em;
+    margin: 15em 25em 15em 25em;
+    padding: 2em;
+    border-radius: 1em;
 }
 
 .contact-text, .contact-subtext {
